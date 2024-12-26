@@ -1,0 +1,22 @@
+{% extends "menu.html" %}
+
+<body>
+
+{%block pagename%}
+    <h1> {{title}}</h1>
+{%endblock%}
+{%block content%}
+{% if cart_len == 0 %}
+    <h1> Ваша корзина пуста</h1>
+{%else%}
+    <ul>
+        {% for good in cart %}
+            <li> {{ good }} </li>
+        {% endfor %}
+    </ul>
+{%endif%}
+
+{%endblock%}
+
+    <button><a href="/platform">Вернуться</a></button>
+</body>

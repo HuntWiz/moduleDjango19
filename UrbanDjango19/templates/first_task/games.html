@@ -1,0 +1,21 @@
+{% extends "menu.html" %}
+<body>
+{%block pagename%}
+    <h1> {{title}}</h1>
+{%endblock%}
+
+    {%block content%}
+    <ul>
+        
+        {% for game in games %}
+            <li> {{ game.title }} | {{ game.description }}.
+                <p>
+                Стоймость: {{ game.cost}} <button>Купить</button>
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <button><a href="/platform">Вернуться</a></button>
+</body>
+{%endblock%}
