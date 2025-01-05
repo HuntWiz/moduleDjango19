@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc91a01-be3e-4e3d-9b20-8ca23e75aba2" name="Changes" comment="3">
+    <list default="true" id="bfc91a01-be3e-4e3d-9b20-8ca23e75aba2" name="Changes" comment="4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735218137170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4">
+      <option name="closed" value="true" />
+      <created>1736079688004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736079688004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
 </project>
