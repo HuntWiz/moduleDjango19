@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc91a01-be3e-4e3d-9b20-8ca23e75aba2" name="Changes" comment="4">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango19/templates/first_task/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="bfc91a01-be3e-4e3d-9b20-8ca23e75aba2" name="Changes" comment="5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="not-work" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -38,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Dowland/Python projects/moduleDjango19/UrbanDjango19/templates/first_task"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dowland/Python projects/moduleDjango19/UrbanDjango19/templates/first_task&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dowland\Python projects\moduleDjango19\UrbanDjango19\templates\first_task" />
@@ -118,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736081734891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5">
+      <option name="closed" value="true" />
+      <created>1736790329029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736790329029</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +130,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
-    <option name="LAST_COMMIT_MESSAGE" value="4" />
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
   </component>
 </project>
