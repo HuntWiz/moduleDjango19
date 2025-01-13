@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Game, Buyer
+from .models import Game, Buyer, Post
 
 # Register your models here.
 
@@ -8,6 +8,10 @@ class GameAdmin(admin.ModelAdmin):
     list_display = ('title', 'cost', 'size')
     list_filter = ('size', 'cost')
     list_max_show_all = 20
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('title', 'content')
 
 
 @admin.register(Buyer)

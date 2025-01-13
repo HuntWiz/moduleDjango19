@@ -2,6 +2,12 @@ from django.db import models
 
 # Create your models here.
 
+class Post(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+
 class Buyer(models.Model):
     name = models.CharField(name='username', max_length=100, verbose_name='Логин пользователя')
     balance = models.DecimalField(max_digits=100, decimal_places=3, default=100, verbose_name='Баланс')

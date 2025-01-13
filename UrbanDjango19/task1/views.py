@@ -1,9 +1,27 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from django.core.paginator import Paginator
 from .models import *
 
 
 # Create your views here.
+
+def post_list(request):
+    # получаем все посты
+    posts = Post.objects.all()
+
+    # создаем пагинатор
+    paginator = Paginator(posts, 2)  # 10 постов на странице
+
+    # получаем номер страницы, на которую переходит пользователь
+    page_number = request.GET.get('page')
+
+    # получаем посты для текущей страницы
+    page_posts = paginator.get_page(page_number)
+
+    # передаем контекст в шаблон
+    return render(request, 'post_list.html', {'page_posts': page_posts})
+
 
 class Platform(TemplateView):
     template_name = 'platform.html'
