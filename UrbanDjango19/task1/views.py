@@ -11,7 +11,7 @@ def post_list(request):
     posts = Post.objects.all()
 
     # создаем пагинатор
-    paginator = Paginator(posts, 2)  # 10 постов на странице
+    paginator = Paginator(posts, 2)  # 2 постов на странице
 
     # получаем номер страницы, на которую переходит пользователь
     page_number = request.GET.get('page')

@@ -30,3 +30,10 @@ class Game(models.Model):
     class Meta:
         verbose_name = 'Игры'
         verbose_name_plural = 'Игры'
+
+class Dlc(models.Model):
+    title = models.CharField(max_length=100, verbose_name='Название длс')
+    cost = models.DecimalField(max_digits=20, decimal_places=3, verbose_name='Цена')
+    size = models.DecimalField(max_digits=30, decimal_places=3)
+    description = models.TextField(blank=True)
+    age_limited = models.BooleanField(default=False)
